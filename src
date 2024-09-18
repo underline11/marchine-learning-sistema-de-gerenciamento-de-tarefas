@@ -1,0 +1,22 @@
+tarefas = []
+
+def adicionar_tarefa(descricao):
+    tarefas.append({'descricao': descricao, 'concluida': False})
+
+def listar_tarefas():
+    for i, tarefa in enumerate(tarefas):
+        status = "Concluída" if tarefa['concluida'] else "Pendente"
+        print(f"{i + 1}. {tarefa['descricao']} - {status}")
+
+def concluir_tarefa(indice):
+    if 0 <= indice < len(tarefas):
+        tarefas[indice]['concluida'] = True
+    else:
+        print("Índice inválido.")
+
+# Testando as funções
+adicionar_tarefa("Estudar Python")
+adicionar_tarefa("Fazer exercício físico")
+listar_tarefas()
+concluir_tarefa(0)
+listar_tarefas()
