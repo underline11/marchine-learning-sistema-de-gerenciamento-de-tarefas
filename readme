@@ -1,0 +1,28 @@
+# Sistema de Gerenciamento de Tarefas
+
+## Descrição
+
+Este é um sistema simples para gerenciar tarefas. O sistema permite adicionar, remover e listar tarefas, bem como marcar tarefas como concluídas. Utiliza estruturas de dados como listas e dicionários, e funções para gerenciar a entrada e saída de dados.
+
+## Funcionalidades
+
+- **Adicionar Tarefa:** Permite adicionar uma nova tarefa ao sistema.
+- **Remover Tarefa:** Permite remover uma tarefa existente.
+- **Listar Tarefas:** Exibe todas as tarefas, indicando se estão concluídas ou pendentes.
+- **Marcar Tarefa como Concluída:** Permite marcar uma tarefa como concluída.
+
+## Requisitos
+
+Não há requisitos externos além do Python. O projeto foi desenvolvido utilizando Python 3.
+
+## Estrutura do Projeto
+
+- `main.py`: Arquivo principal que contém a implementação das funções e a lógica do sistema.
+- `README.md`: Este arquivo.
+- `.gitignore`: Arquivo para especificar quais arquivos ou diretórios devem ser ignorados pelo Git.
+
+## Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/sistema-gerenciamento-tarefas.git
