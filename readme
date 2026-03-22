@@ -1,23 +1,15 @@
-# Sistema de Gerenciamento de Tarefas
+#  Task Manager CLI (Simple To-Do)
 
-## Descrição
+##  Conceitos Aplicados
+- **Listas e Dicionários:** Armazenamento complexo de objetos.
+- **State Management:** Controle de status (Pendente/Concluído) via booleanos.
+- **Iteração Avançada:** Uso de `enumerate` para exibição formatada de índices.
 
-Este é um sistema simples para gerenciar tarefas. O sistema permite adicionar, remover e listar tarefas, bem como marcar tarefas como concluídas. Utiliza estruturas de dados como listas e dicionários, e funções para gerenciar a entrada e saída de dados.
+##  Funcionalidades
+- Adição de tarefas com descrição.
+- Listagem enumerada com status visual.
+- Marcação de conclusão por índice.
 
-## Funcionalidades
-
-- **Adicionar Tarefa:** Permite adicionar uma nova tarefa ao sistema.
-- **Remover Tarefa:** Permite remover uma tarefa existente.
-- **Listar Tarefas:** Exibe todas as tarefas, indicando se estão concluídas ou pendentes.
-- **Marcar Tarefa como Concluída:** Permite marcar uma tarefa como concluída.
-
-## Requisitos
-
-Não há requisitos externos além do Python. O projeto foi desenvolvido utilizando Python 3.
-
-## Estrutura do Projeto
-
-- `main.py`: Arquivo principal que contém a implementação das funções e a lógica do sistema.
-- `README.md`: Este arquivo.
-- `.gitignore`: Arquivo para especificar quais arquivos ou diretórios devem ser ignorados pelo Git.
-
+##  Próximos Passos
+- Implementar persistência de dados em arquivo JSON.
+- Criar uma interface gráfica (Tkinter) para este gerenciador.
