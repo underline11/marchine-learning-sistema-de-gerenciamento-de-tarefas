@@ -21,8 +21,3 @@ Não há requisitos externos além do Python. O projeto foi desenvolvido utiliza
 - `README.md`: Este arquivo.
 - `.gitignore`: Arquivo para especificar quais arquivos ou diretórios devem ser ignorados pelo Git.
 
-## Como Executar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/sistema-gerenciamento-tarefas.git
